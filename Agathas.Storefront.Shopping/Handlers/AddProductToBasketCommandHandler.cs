@@ -14,6 +14,7 @@ namespace Agathas.Storefront.Application.Handlers
                                                 ReadModel product_repository,
                                                 IBasketPricingService basket_pricing_service)
         {
+
             _basketRepository = basketRepository;
             _basketPricingService = basket_pricing_service;
         }
@@ -24,6 +25,7 @@ namespace Agathas.Storefront.Application.Handlers
 
             // var product = _product_repository.find_by(business_request.productid);
             var product = new ProductSnapshot();
+
 
             basket.add(product, _basketPricingService);                                    
         }

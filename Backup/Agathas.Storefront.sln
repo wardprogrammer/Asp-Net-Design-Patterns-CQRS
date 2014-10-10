@@ -1,16 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{580C1C19-3934-49E8-B41A-82FBBEF01475}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1BC99DCB-D856-453A-9B0B-50526AB37A83}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{85BBFD14-B984-4F95-ACC2-9B01566C8F1D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{774A1C2B-8E67-465D-9A25-44C06DBE8545}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Infrastructure", "Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj", "{578D58FB-8380-489F-8468-138EA8C27937}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Ui.Web.Views", "Agathas.Storefront.Ui.Web.Views\Agathas.Storefront.Ui.Web.Views.csproj", "{E57C5FED-61A0-4357-8308-ABEA91CC9E6D}"
@@ -19,9 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Specs.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Specs.Uat", "Agathas.Storefront.Specs.Uat\Agathas.Storefront.Specs.Uat.csproj", "{8A0D0E13-1963-43BD-ACE7-B46B0D169E19}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{580C1C19-3934-49E8-B41A-82FBBEF01475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1BC99DCB-D856-453A-9B0B-50526AB37A83}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Ui.Web", "Agathas.Storefront.Ui.Web\Agathas.Storefront.Ui.Web.csproj", "{4CBE04B2-FFB9-4513-B278-659CC20D3943}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.ProductBrowsing", "Agathas.Storefront.ProductBrowsing\Agathas.Storefront.ProductBrowsing.csproj", "{70601E59-5D3C-4FBA-A0EC-A2A420214DAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{85BBFD14-B984-4F95-ACC2-9B01566C8F1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{774A1C2B-8E67-465D-9A25-44C06DBE8545}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Shopping", "Agathas.Storefront.Shopping\Agathas.Storefront.Shopping.csproj", "{6B8D6DFC-1688-4051-A362-0B1D314CBB37}"
 EndProject
@@ -34,13 +32,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Domain", "Agathas.Storefront.Domain\Agathas.Storefront.Domain.csproj", "{D1A8BCC7-3A89-4C11-9983-2D54E465BC9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Ordering", "Agathas.Storefront.Ordering\Agathas.Storefront.Ordering.csproj", "{9D29D9A2-11BF-4C83-BBEC-36FC72868DAB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{07FAB183-EF56-4D7B-990D-D61A43B2B420}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,10 +93,10 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{578D58FB-8380-489F-8468-138EA8C27937} = {774A1C2B-8E67-465D-9A25-44C06DBE8545}
-		{E57C5FED-61A0-4357-8308-ABEA91CC9E6D} = {85BBFD14-B984-4F95-ACC2-9B01566C8F1D}
-		{A9A5BED6-8B6C-476A-8A50-A52B4307E6A3} = {1BC99DCB-D856-453A-9B0B-50526AB37A83}
-		{8A0D0E13-1963-43BD-ACE7-B46B0D169E19} = {1BC99DCB-D856-453A-9B0B-50526AB37A83}
 		{4CBE04B2-FFB9-4513-B278-659CC20D3943} = {85BBFD14-B984-4F95-ACC2-9B01566C8F1D}
+		{E57C5FED-61A0-4357-8308-ABEA91CC9E6D} = {85BBFD14-B984-4F95-ACC2-9B01566C8F1D}
+		{8A0D0E13-1963-43BD-ACE7-B46B0D169E19} = {1BC99DCB-D856-453A-9B0B-50526AB37A83}
+		{A9A5BED6-8B6C-476A-8A50-A52B4307E6A3} = {1BC99DCB-D856-453A-9B0B-50526AB37A83}
 		{70601E59-5D3C-4FBA-A0EC-A2A420214DAF} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
 		{6B8D6DFC-1688-4051-A362-0B1D314CBB37} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
 		{260C9FB5-E31C-4823-AEE9-B8B12D838F3C} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
